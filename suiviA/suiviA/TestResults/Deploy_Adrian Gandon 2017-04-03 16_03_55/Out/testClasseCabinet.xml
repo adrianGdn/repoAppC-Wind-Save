@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lesValeurs>
+  <uneValeur>
+    <idCabinet>25850</idCabinet>
+    <longitudeGPS>4,0055168</longitudeGPS>
+    <latitudeGPS>50,3207523</latitudeGPS>
+    <rue>23 Rue de Maubeuge</rue>
+    <ville>Bersillies</ville>
+    <cp>59600</cp>
+  </uneValeur>
+  <uneValeur>
+    <idCabinet>323232</idCabinet>
+    <longitudeGPS>2,9478716</longitudeGPS>
+    <latitudeGPS>50,4199134</latitudeGPS>
+    <rue>2 Rue Louis Cresson</rue>
+    <ville>Hénin-Beaumont</ville>
+    <cp>62110</cp>
+  </uneValeur>
+  <uneValeur>
+    <idCabinet>232323</idCabinet>
+    <longitudeGPS>0,267888</longitudeGPS>
+    <latitudeGPS>49,50411279999999</latitudeGPS>
+    <rue>23 Rue René Coty</rue>
+    <ville>Rogerville</ville>
+    <cp>76700</cp>
+  </uneValeur>
+</lesValeurs>

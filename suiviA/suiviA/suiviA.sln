@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes Metiers", "Classes Metiers\Classes Metiers.csproj", "{22F7B860-DF62-430B-B55C-7C0F2541A3AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vues", "Vues\Vues.csproj", "{4A276005-493E-4E55-9800-9C4894FE381F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classe Passerelle", "Classe Passerelle\Classe Passerelle.csproj", "{A6CB4DF9-383F-44C3-BD42-CD414ABAA2B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests Classes Metiers", "Lot de tests\Tests Classes Metiers.csproj", "{FF0E7EAC-72A1-4F88-AE5D-22FF0109FE3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveDirectory", "ActiveDirectory\ActiveDirectory.csproj", "{1264B03C-4221-4BB1-B655-42B451A60F89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22F7B860-DF62-430B-B55C-7C0F2541A3AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F7B860-DF62-430B-B55C-7C0F2541A3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F7B860-DF62-430B-B55C-7C0F2541A3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F7B860-DF62-430B-B55C-7C0F2541A3AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A276005-493E-4E55-9800-9C4894FE381F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A276005-493E-4E55-9800-9C4894FE381F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A276005-493E-4E55-9800-9C4894FE381F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A276005-493E-4E55-9800-9C4894FE381F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CB4DF9-383F-44C3-BD42-CD414ABAA2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CB4DF9-383F-44C3-BD42-CD414ABAA2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CB4DF9-383F-44C3-BD42-CD414ABAA2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CB4DF9-383F-44C3-BD42-CD414ABAA2B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0E7EAC-72A1-4F88-AE5D-22FF0109FE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0E7EAC-72A1-4F88-AE5D-22FF0109FE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0E7EAC-72A1-4F88-AE5D-22FF0109FE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0E7EAC-72A1-4F88-AE5D-22FF0109FE3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1264B03C-4221-4BB1-B655-42B451A60F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1264B03C-4221-4BB1-B655-42B451A60F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1264B03C-4221-4BB1-B655-42B451A60F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1264B03C-4221-4BB1-B655-42B451A60F89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://adrian-gandon.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Classes\u0020Metiers\\Classes\u0020Metiers.csproj
+		SccProjectName1 = Classes\u0020Metiers
+		SccLocalPath1 = Classes\u0020Metiers
+		SccProjectUniqueName2 = Vues\\Vues.csproj
+		SccProjectName2 = Vues
+		SccLocalPath2 = Vues
+		SccProjectUniqueName3 = Classe\u0020Passerelle\\Classe\u0020Passerelle.csproj
+		SccProjectName3 = Classe\u0020Passerelle
+		SccLocalPath3 = Classe\u0020Passerelle
+		SccProjectUniqueName4 = Lot\u0020de\u0020tests\\Tests\u0020Classes\u0020Metiers.csproj
+		SccProjectName4 = Lot\u0020de\u0020tests
+		SccLocalPath4 = Lot\u0020de\u0020tests
+		SccProjectUniqueName5 = ActiveDirectory\\ActiveDirectory.csproj
+		SccProjectName5 = ActiveDirectory
+		SccLocalPath5 = ActiveDirectory
+	EndGlobalSection
+EndGlobal

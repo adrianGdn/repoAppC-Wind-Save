@@ -1,0 +1,32 @@
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\Vues.exe.config
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\Vues.exe
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\Vues.pdb
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\ActiveDirectory.dll
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\Classe Passerelle.dll
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\Classes Metiers.dll
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\MySql.Data.dll
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\GoogleMaps.LocationServices.dll
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\ActiveDirectory.pdb
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\Classe Passerelle.pdb
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\Classes Metiers.pdb
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.csprojResolveAssemblyReference.cache
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.AccueilUtilisateur.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.AccueilVisiteur.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.Affectation.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.Cabinets.CabinetCreer.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.Cabinets.CabinetRU.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.Cabinets.ModifierCabinet.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.Connexion.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.MedecinCreer.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.MedecinRU.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.ModifierMedecin.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.Statistiques.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.ModifierVisite.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.Properties.Resources.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.VisitesCreer.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.VisitesRUD.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.csproj.GenerateResource.Cache
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.exe
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.pdb
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.Visites.VisitesRUD2.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.Cabinets.CabinetRU2.resources

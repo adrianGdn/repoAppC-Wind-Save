@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lesValeurs>
+  <uneValeur>
+    <idVisite>1</idVisite>
+    <dateVisiteJour>21</dateVisiteJour>
+    <dateVisiteMois>06</dateVisiteMois>
+    <dateVisiteAnnee>1997</dateVisiteAnnee>
+    <estVisiteProgramme>true</estVisiteProgramme>
+    <heureArriveeCabinet>11h02</heureArriveeCabinet>
+    <heureDebutEntretien>14h00</heureDebutEntretien>
+    <heureDepartCabinet>23h00</heureDepartCabinet>
+    
+    <idMedecin>1</idMedecin>
+    <nomMedecin>Petit</nomMedecin>
+    <prenomMedecin>Julien</prenomMedecin>
+
+    <idActeur>e32</idActeur>
+    <nomActeur>Mouttier</nomActeur>
+    <prenomActeur>Robert</prenomActeur>
+    <login>rmout</login>
+    <MDP>12e9293ec6b30c7fa8a0926af42807e929c1684f</MDP>
+    <MDPClair>robert</MDPClair>
+    <typeActeur>2</typeActeur>
+
+    <idCabinet>25850</idCabinet>
+    <longitudeGPS>2.32</longitudeGPS>
+    <latitudeGPS>3.23</latitudeGPS>
+    <rue>23 rue des Oliviers</rue>
+    <ville>Maubeuge</ville>
+    <cp>59600</cp>
+  </uneValeur>
+
+  <uneValeur>
+    <idVisite>2</idVisite>
+    <dateVisiteJour>17</dateVisiteJour>
+    <dateVisiteMois>03</dateVisiteMois>
+    <dateVisiteAnnee>1997</dateVisiteAnnee>
+    <estVisiteProgramme>false</estVisiteProgramme>
+    <heureArriveeCabinet>8h30</heureArriveeCabinet>
+    <heureDebutEntretien>8h32</heureDebutEntretien>
+    <heureDepartCabinet>9h23</heureDepartCabinet>
+    
+    <idMedecin>2</idMedecin>
+    <nomMedecin>Gandon</nomMedecin>
+    <prenomMedecin>Adrian</prenomMedecin>
+
+    <idActeur>a23</idActeur>
+    <nomActeur>Cavrois</nomActeur>
+    <prenomActeur>Benoît</prenomActeur>
+    <login>bcavrois</login>
+    <MDP>ada67ac5f4f919afa4024d1d760165aba9b2aff0</MDP>
+    <MDPClair>pamplemousse</MDPClair>
+    <typeActeur>3</typeActeur>
+
+    <idCabinet>323232</idCabinet>
+    <longitudeGPS>17.00</longitudeGPS>
+    <latitudeGPS>27.00</latitudeGPS>
+    <rue>32112 Allées des bords des eaux</rue>
+    <ville>Hénin-Baumont</ville>
+    <cp>62110</cp>
+  </uneValeur>
+
+  <uneValeur>
+    <idVisite>3</idVisite>
+    <dateVisiteJour>27</dateVisiteJour>
+    <dateVisiteMois>03</dateVisiteMois>
+    <dateVisiteAnnee>2017</dateVisiteAnnee>
+    <estVisiteProgramme>true</estVisiteProgramme>
+    <heureArriveeCabinet>12h00</heureArriveeCabinet>
+    <heureDebutEntretien>12h30</heureDebutEntretien>
+    <heureDepartCabinet>18h00</heureDepartCabinet>
+    
+    <idMedecin>3</idMedecin>
+    <nomMedecin>Guittard</nomMedecin>
+    <prenomMedecin>Jonathan</prenomMedecin>
+
+    <idActeur>d42</idActeur>
+    <nomActeur>Dubus</nomActeur>
+    <prenomActeur>Alexis</prenomActeur>
+    <login>adubus</login>
+    <MDP>175d5773e1877cbf47d25d1cc8e91b22e342638e</MDP>
+    <MDPClair>saucissons</MDPClair>
+    <typeActeur>1</typeActeur>
+
+    <idCabinet>232323</idCabinet>
+    <longitudeGPS>3.23</longitudeGPS>
+    <latitudeGPS>2.32</latitudeGPS>
+    <rue>32 routes de Gainneville</rue>
+    <ville>Rogerville</ville>
+    <cp>76700</cp>
+  </uneValeur>
+</lesValeurs>

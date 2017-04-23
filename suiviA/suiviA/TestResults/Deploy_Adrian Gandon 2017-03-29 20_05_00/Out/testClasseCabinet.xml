@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lesValeurs>
+  <uneValeur>
+    <idCabinet>25850</idCabinet>
+    <longitudeGPS>2.32</longitudeGPS>
+    <latitudeGPS>3.23</latitudeGPS>
+    <rue>23 rue des Oliviers</rue>
+    <ville>Maubeuge</ville>
+    <cp>59600</cp>
+  </uneValeur>
+  <uneValeur>
+    <idCabinet>323232</idCabinet>
+    <longitudeGPS>17.00</longitudeGPS>
+    <latitudeGPS>27.00</latitudeGPS>
+    <rue>32112 Allées des bords des eaux</rue>
+    <ville>Hénin-Baumont</ville>
+    <cp>62110</cp>
+  </uneValeur>
+  <uneValeur>
+    <idCabinet>232323</idCabinet>
+    <longitudeGPS>3.23</longitudeGPS>
+    <latitudeGPS>2.32</latitudeGPS>
+    <rue>32 routes de Gainneville</rue>
+    <ville>Rogerville</ville>
+    <cp>76700</cp>
+  </uneValeur>
+</lesValeurs>

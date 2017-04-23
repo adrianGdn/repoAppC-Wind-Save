@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A276005-493E-4E55-9800-9C4894FE381F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vues</RootNamespace>
+    <AssemblyName>Vues</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccueilUtilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccueilUtilisateur.Designer.cs">
+      <DependentUpon>AccueilUtilisateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccueilVisiteur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccueilVisiteur.Designer.cs">
+      <DependentUpon>AccueilVisiteur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Affectation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Affectation.Designer.cs">
+      <DependentUpon>Affectation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cabinets\CabinetCreer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cabinets\CabinetCreer.Designer.cs">
+      <DependentUpon>CabinetCreer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cabinets\CabinetRU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cabinets\CabinetRU.Designer.cs">
+      <DependentUpon>CabinetRU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cabinets\CabinetRU2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cabinets\CabinetRU2.Designer.cs">
+      <DependentUpon>CabinetRU2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cabinets\ModifierCabinet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cabinets\ModifierCabinet.Designer.cs">
+      <DependentUpon>ModifierCabinet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connexion.Designer.cs">
+      <DependentUpon>Connexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FonctionsEtProcedures.cs" />
+    <Compile Include="Médecins\MedecinRU2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Médecins\MedecinRU2.Designer.cs">
+      <DependentUpon>MedecinRU2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Médecins\ModifierMedecin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Médecins\ModifierMedecin.Designer.cs">
+      <DependentUpon>ModifierMedecin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Médecins\MedecinRU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Médecins\MedecinRU.Designer.cs">
+      <DependentUpon>MedecinRU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Médecins\MedecinCreer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Médecins\MedecinCreer.Designer.cs">
+      <DependentUpon>MedecinCreer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistiques.Designer.cs">
+      <DependentUpon>Statistiques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visites\ModifierVisite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visites\ModifierVisite.Designer.cs">
+      <DependentUpon>ModifierVisite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Visites\VisitesCreer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visites\VisitesCreer.Designer.cs">
+      <DependentUpon>VisitesCreer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visites\VisitesRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visites\VisitesRUD.Designer.cs">
+      <DependentUpon>VisitesRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visites\VisitesRUD2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visites\VisitesRUD2.Designer.cs">
+      <DependentUpon>VisitesRUD2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccueilUtilisateur.resx">
+      <DependentUpon>AccueilUtilisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccueilVisiteur.resx">
+      <DependentUpon>AccueilVisiteur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Affectation.resx">
+      <DependentUpon>Affectation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cabinets\CabinetCreer.resx">
+      <DependentUpon>CabinetCreer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cabinets\CabinetRU.resx">
+      <DependentUpon>CabinetRU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cabinets\CabinetRU2.resx">
+      <DependentUpon>CabinetRU2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cabinets\ModifierCabinet.resx">
+      <DependentUpon>ModifierCabinet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connexion.resx">
+      <DependentUpon>Connexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Médecins\MedecinCreer.resx">
+      <DependentUpon>MedecinCreer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Médecins\MedecinRU.resx">
+      <DependentUpon>MedecinRU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Médecins\ModifierMedecin.resx">
+      <DependentUpon>ModifierMedecin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiques.resx">
+      <DependentUpon>Statistiques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visites\ModifierVisite.resx">
+      <DependentUpon>ModifierVisite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Visites\VisitesCreer.resx">
+      <DependentUpon>VisitesCreer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visites\VisitesRUD.resx">
+      <DependentUpon>VisitesRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visites\VisitesRUD2.resx">
+      <DependentUpon>VisitesRUD2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\Classes_Metiers.Visite.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoGSB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ActiveDirectory\ActiveDirectory.csproj">
+      <Project>{1264b03c-4221-4bb1-b655-42b451a60f89}</Project>
+      <Name>ActiveDirectory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Classe Passerelle\Classe Passerelle.csproj">
+      <Project>{a6cb4df9-383f-44c3-bd42-cd414abaa2b9}</Project>
+      <Name>Classe Passerelle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Classes Metiers\Classes Metiers.csproj">
+      <Project>{22f7b860-df62-430b-b55c-7c0f2541a3ac}</Project>
+      <Name>Classes Metiers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laboratoire.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
