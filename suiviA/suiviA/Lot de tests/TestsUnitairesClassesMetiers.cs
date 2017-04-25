@@ -267,7 +267,7 @@ namespace Lot_de_tests
             Acteur resultatObtenu7 = uneVisite.getLActeur();
             Assert.AreEqual(resultatAttendu7, resultatObtenu7);
 
-            string resultatAttendu8 = "Nom du médecin : " + uneVisite.getLeMedecin().getNom() + ", nom du visiteur " + uneVisite.getLActeur().getNom(); ;
+            string resultatAttendu8 = uneVisite.getIdVisite().ToString() + " - " + "Médecin : " + uneVisite.getLeMedecin().getNom() + ", Visiteur : " + uneVisite.getLActeur().getNom() + ", Date : " + uneVisite.getDateVisite().ToShortDateString();
             string resultatObtenu8 = uneVisite.ToString();
             Assert.AreEqual(resultatAttendu8, resultatObtenu8);
 

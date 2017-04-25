@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblVoirVisite = new System.Windows.Forms.Label();
+            this.lblVoirMedecin = new System.Windows.Forms.Label();
             this.cboxCP = new System.Windows.Forms.ComboBox();
             this.lblCP = new System.Windows.Forms.Label();
             this.cboxVille = new System.Windows.Forms.ComboBox();
@@ -50,24 +50,26 @@
             this.btnModifier = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lblVoirVisite
+            // lblVoirMedecin
             // 
-            this.lblVoirVisite.AutoSize = true;
-            this.lblVoirVisite.BackColor = System.Drawing.Color.Transparent;
-            this.lblVoirVisite.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVoirVisite.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblVoirVisite.Location = new System.Drawing.Point(12, 9);
-            this.lblVoirVisite.Name = "lblVoirVisite";
-            this.lblVoirVisite.Size = new System.Drawing.Size(287, 25);
-            this.lblVoirVisite.TabIndex = 39;
-            this.lblVoirVisite.Text = "Voir ou modifier une visite";
+            this.lblVoirMedecin.AutoSize = true;
+            this.lblVoirMedecin.BackColor = System.Drawing.Color.Transparent;
+            this.lblVoirMedecin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVoirMedecin.ForeColor = System.Drawing.SystemColors.Window;
+            this.lblVoirMedecin.Location = new System.Drawing.Point(18, 14);
+            this.lblVoirMedecin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblVoirMedecin.Name = "lblVoirMedecin";
+            this.lblVoirMedecin.Size = new System.Drawing.Size(444, 37);
+            this.lblVoirMedecin.TabIndex = 39;
+            this.lblVoirMedecin.Text = "Voir ou modifier un médecin";
             // 
             // cboxCP
             // 
             this.cboxCP.FormattingEnabled = true;
-            this.cboxCP.Location = new System.Drawing.Point(129, 53);
+            this.cboxCP.Location = new System.Drawing.Point(194, 82);
+            this.cboxCP.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboxCP.Name = "cboxCP";
-            this.cboxCP.Size = new System.Drawing.Size(255, 21);
+            this.cboxCP.Size = new System.Drawing.Size(380, 28);
             this.cboxCP.TabIndex = 61;
             this.cboxCP.SelectedIndexChanged += new System.EventHandler(this.cboxCP_SelectedIndexChanged);
             // 
@@ -77,18 +79,20 @@
             this.lblCP.BackColor = System.Drawing.Color.Transparent;
             this.lblCP.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCP.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblCP.Location = new System.Drawing.Point(37, 52);
+            this.lblCP.Location = new System.Drawing.Point(56, 80);
+            this.lblCP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCP.Name = "lblCP";
-            this.lblCP.Size = new System.Drawing.Size(86, 19);
+            this.lblCP.Size = new System.Drawing.Size(129, 29);
             this.lblCP.TabIndex = 60;
             this.lblCP.Text = "Code Postal";
             // 
             // cboxVille
             // 
             this.cboxVille.FormattingEnabled = true;
-            this.cboxVille.Location = new System.Drawing.Point(462, 53);
+            this.cboxVille.Location = new System.Drawing.Point(693, 82);
+            this.cboxVille.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboxVille.Name = "cboxVille";
-            this.cboxVille.Size = new System.Drawing.Size(255, 21);
+            this.cboxVille.Size = new System.Drawing.Size(380, 28);
             this.cboxVille.TabIndex = 59;
             this.cboxVille.SelectedIndexChanged += new System.EventHandler(this.cboxVille_SelectedIndexChanged);
             // 
@@ -98,18 +102,20 @@
             this.lblVille.BackColor = System.Drawing.Color.Transparent;
             this.lblVille.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVille.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblVille.Location = new System.Drawing.Point(418, 56);
+            this.lblVille.Location = new System.Drawing.Point(627, 86);
+            this.lblVille.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVille.Name = "lblVille";
-            this.lblVille.Size = new System.Drawing.Size(38, 19);
+            this.lblVille.Size = new System.Drawing.Size(57, 29);
             this.lblVille.TabIndex = 58;
             this.lblVille.Text = "Ville";
             // 
             // cboxCabinet
             // 
             this.cboxCabinet.FormattingEnabled = true;
-            this.cboxCabinet.Location = new System.Drawing.Point(130, 89);
+            this.cboxCabinet.Location = new System.Drawing.Point(195, 137);
+            this.cboxCabinet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboxCabinet.Name = "cboxCabinet";
-            this.cboxCabinet.Size = new System.Drawing.Size(255, 21);
+            this.cboxCabinet.Size = new System.Drawing.Size(380, 28);
             this.cboxCabinet.TabIndex = 57;
             this.cboxCabinet.SelectedIndexChanged += new System.EventHandler(this.cboxCabinet_SelectedIndexChanged);
             // 
@@ -119,9 +125,10 @@
             this.lblCabinet.BackColor = System.Drawing.Color.SteelBlue;
             this.lblCabinet.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCabinet.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblCabinet.Location = new System.Drawing.Point(65, 92);
+            this.lblCabinet.Location = new System.Drawing.Point(98, 142);
+            this.lblCabinet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCabinet.Name = "lblCabinet";
-            this.lblCabinet.Size = new System.Drawing.Size(59, 19);
+            this.lblCabinet.Size = new System.Drawing.Size(90, 29);
             this.lblCabinet.TabIndex = 56;
             this.lblCabinet.Text = "Cabinet";
             // 
@@ -131,18 +138,20 @@
             this.lblVisiteur.BackColor = System.Drawing.Color.SteelBlue;
             this.lblVisiteur.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVisiteur.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblVisiteur.Location = new System.Drawing.Point(12, 123);
+            this.lblVisiteur.Location = new System.Drawing.Point(18, 189);
+            this.lblVisiteur.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVisiteur.Name = "lblVisiteur";
-            this.lblVisiteur.Size = new System.Drawing.Size(112, 19);
+            this.lblVisiteur.Size = new System.Drawing.Size(165, 29);
             this.lblVisiteur.TabIndex = 62;
             this.lblVisiteur.Text = "Visiteur associé";
             // 
             // cboxVisiteur
             // 
             this.cboxVisiteur.FormattingEnabled = true;
-            this.cboxVisiteur.Location = new System.Drawing.Point(130, 123);
+            this.cboxVisiteur.Location = new System.Drawing.Point(195, 189);
+            this.cboxVisiteur.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboxVisiteur.Name = "cboxVisiteur";
-            this.cboxVisiteur.Size = new System.Drawing.Size(338, 21);
+            this.cboxVisiteur.Size = new System.Drawing.Size(505, 28);
             this.cboxVisiteur.TabIndex = 63;
             this.cboxVisiteur.SelectedIndexChanged += new System.EventHandler(this.cboxVisiteur_SelectedIndexChanged);
             // 
@@ -152,18 +161,20 @@
             this.lblMedecin.BackColor = System.Drawing.Color.Transparent;
             this.lblMedecin.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMedecin.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblMedecin.Location = new System.Drawing.Point(316, 180);
+            this.lblMedecin.Location = new System.Drawing.Point(474, 277);
+            this.lblMedecin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMedecin.Name = "lblMedecin";
-            this.lblMedecin.Size = new System.Drawing.Size(152, 19);
+            this.lblMedecin.Size = new System.Drawing.Size(225, 29);
             this.lblMedecin.TabIndex = 64;
             this.lblMedecin.Text = "Choisissez le médecin";
             // 
             // cboxMedecin
             // 
             this.cboxMedecin.FormattingEnabled = true;
-            this.cboxMedecin.Location = new System.Drawing.Point(204, 202);
+            this.cboxMedecin.Location = new System.Drawing.Point(306, 311);
+            this.cboxMedecin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboxMedecin.Name = "cboxMedecin";
-            this.cboxMedecin.Size = new System.Drawing.Size(363, 21);
+            this.cboxMedecin.Size = new System.Drawing.Size(542, 28);
             this.cboxMedecin.TabIndex = 65;
             this.cboxMedecin.SelectedIndexChanged += new System.EventHandler(this.cboxMedecin_SelectedIndexChanged);
             // 
@@ -173,9 +184,10 @@
             this.lblNom.BackColor = System.Drawing.Color.Transparent;
             this.lblNom.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNom.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblNom.Location = new System.Drawing.Point(99, 276);
+            this.lblNom.Location = new System.Drawing.Point(148, 425);
+            this.lblNom.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNom.Name = "lblNom";
-            this.lblNom.Size = new System.Drawing.Size(39, 19);
+            this.lblNom.Size = new System.Drawing.Size(61, 29);
             this.lblNom.TabIndex = 66;
             this.lblNom.Text = "Nom";
             // 
@@ -185,9 +197,10 @@
             this.lblPrenom.BackColor = System.Drawing.Color.Transparent;
             this.lblPrenom.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrenom.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblPrenom.Location = new System.Drawing.Point(80, 306);
+            this.lblPrenom.Location = new System.Drawing.Point(120, 471);
+            this.lblPrenom.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrenom.Name = "lblPrenom";
-            this.lblPrenom.Size = new System.Drawing.Size(58, 19);
+            this.lblPrenom.Size = new System.Drawing.Size(90, 29);
             this.lblPrenom.TabIndex = 67;
             this.lblPrenom.Text = "Prénom";
             // 
@@ -197,9 +210,10 @@
             this.lblCabinetDuMedecin.BackColor = System.Drawing.Color.Transparent;
             this.lblCabinetDuMedecin.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCabinetDuMedecin.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblCabinetDuMedecin.Location = new System.Drawing.Point(79, 339);
+            this.lblCabinetDuMedecin.Location = new System.Drawing.Point(118, 522);
+            this.lblCabinetDuMedecin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCabinetDuMedecin.Name = "lblCabinetDuMedecin";
-            this.lblCabinetDuMedecin.Size = new System.Drawing.Size(59, 19);
+            this.lblCabinetDuMedecin.Size = new System.Drawing.Size(90, 29);
             this.lblCabinetDuMedecin.TabIndex = 68;
             this.lblCabinetDuMedecin.Text = "Cabinet";
             // 
@@ -209,49 +223,55 @@
             this.lblVisiteurAssocie.BackColor = System.Drawing.Color.Transparent;
             this.lblVisiteurAssocie.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVisiteurAssocie.ForeColor = System.Drawing.SystemColors.Window;
-            this.lblVisiteurAssocie.Location = new System.Drawing.Point(26, 371);
+            this.lblVisiteurAssocie.Location = new System.Drawing.Point(39, 571);
+            this.lblVisiteurAssocie.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVisiteurAssocie.Name = "lblVisiteurAssocie";
-            this.lblVisiteurAssocie.Size = new System.Drawing.Size(112, 19);
+            this.lblVisiteurAssocie.Size = new System.Drawing.Size(165, 29);
             this.lblVisiteurAssocie.TabIndex = 69;
             this.lblVisiteurAssocie.Text = "Visiteur associé";
             // 
             // txtNom
             // 
-            this.txtNom.Location = new System.Drawing.Point(144, 277);
+            this.txtNom.Location = new System.Drawing.Point(216, 426);
+            this.txtNom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNom.Name = "txtNom";
             this.txtNom.ReadOnly = true;
-            this.txtNom.Size = new System.Drawing.Size(240, 20);
+            this.txtNom.Size = new System.Drawing.Size(358, 26);
             this.txtNom.TabIndex = 70;
             // 
             // txtPrenom
             // 
-            this.txtPrenom.Location = new System.Drawing.Point(144, 307);
+            this.txtPrenom.Location = new System.Drawing.Point(216, 472);
+            this.txtPrenom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPrenom.Name = "txtPrenom";
             this.txtPrenom.ReadOnly = true;
-            this.txtPrenom.Size = new System.Drawing.Size(240, 20);
+            this.txtPrenom.Size = new System.Drawing.Size(358, 26);
             this.txtPrenom.TabIndex = 71;
             // 
             // txtCabinet
             // 
-            this.txtCabinet.Location = new System.Drawing.Point(144, 340);
+            this.txtCabinet.Location = new System.Drawing.Point(216, 523);
+            this.txtCabinet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCabinet.Name = "txtCabinet";
             this.txtCabinet.ReadOnly = true;
-            this.txtCabinet.Size = new System.Drawing.Size(240, 20);
+            this.txtCabinet.Size = new System.Drawing.Size(358, 26);
             this.txtCabinet.TabIndex = 72;
             // 
             // txtVisiteur
             // 
-            this.txtVisiteur.Location = new System.Drawing.Point(144, 372);
+            this.txtVisiteur.Location = new System.Drawing.Point(216, 572);
+            this.txtVisiteur.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtVisiteur.Name = "txtVisiteur";
             this.txtVisiteur.ReadOnly = true;
-            this.txtVisiteur.Size = new System.Drawing.Size(240, 20);
+            this.txtVisiteur.Size = new System.Drawing.Size(358, 26);
             this.txtVisiteur.TabIndex = 73;
             // 
             // btnModifier
             // 
-            this.btnModifier.Location = new System.Drawing.Point(492, 306);
+            this.btnModifier.Location = new System.Drawing.Point(738, 471);
+            this.btnModifier.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnModifier.Name = "btnModifier";
-            this.btnModifier.Size = new System.Drawing.Size(163, 54);
+            this.btnModifier.Size = new System.Drawing.Size(244, 83);
             this.btnModifier.TabIndex = 75;
             this.btnModifier.Text = "Modifier le médecin";
             this.btnModifier.UseVisualStyleBackColor = true;
@@ -259,11 +279,11 @@
             // 
             // MedecinRU2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Vues.Properties.Resources.laboratoire;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(758, 464);
+            this.ClientSize = new System.Drawing.Size(1137, 714);
             this.Controls.Add(this.btnModifier);
             this.Controls.Add(this.txtVisiteur);
             this.Controls.Add(this.txtCabinet);
@@ -283,7 +303,8 @@
             this.Controls.Add(this.lblVille);
             this.Controls.Add(this.cboxCabinet);
             this.Controls.Add(this.lblCabinet);
-            this.Controls.Add(this.lblVoirVisite);
+            this.Controls.Add(this.lblVoirMedecin);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MedecinRU2";
             this.Text = "MedecinRU2";
             this.Load += new System.EventHandler(this.MedecinRU2_Load);
@@ -294,7 +315,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblVoirVisite;
+        private System.Windows.Forms.Label lblVoirMedecin;
         private System.Windows.Forms.ComboBox cboxCP;
         private System.Windows.Forms.Label lblCP;
         private System.Windows.Forms.ComboBox cboxVille;

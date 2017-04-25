@@ -185,6 +185,9 @@
     <EmbeddedResource Include="Médecins\MedecinRU.resx">
       <DependentUpon>MedecinRU.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Médecins\MedecinRU2.resx">
+      <DependentUpon>MedecinRU2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Médecins\ModifierMedecin.resx">
       <DependentUpon>ModifierMedecin.cs</DependentUpon>
     </EmbeddedResource>
