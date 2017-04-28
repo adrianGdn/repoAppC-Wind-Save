@@ -4,9 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// Contient les classes Cabinet, Médecin, Visite et Acteur
-/// </summary>
 namespace Classes_Metiers
 {
     /// <summary>
@@ -163,6 +160,9 @@ namespace Classes_Metiers
         }
         #endregion
         #region Encapsulation
+        /// <summary>
+        /// Permet d'afficher le nom de l'acteur, sert dans la vue "Affectation"
+        /// </summary>
         public string Nom
         {
             get
@@ -176,6 +176,9 @@ namespace Classes_Metiers
             }
         }
 
+        /// <summary>
+        /// Permet d'afficher le prénom de l'acteur, sert dans la vue "Affectation"
+        /// </summary>
         public string Prenom
         {
             get
@@ -189,6 +192,9 @@ namespace Classes_Metiers
             }
         }
 
+        /// <summary>
+        /// Permet d'afficher le login de l'acteur, sert dans la vue "Affectation"
+        /// </summary>
         public string Login
         {
             get

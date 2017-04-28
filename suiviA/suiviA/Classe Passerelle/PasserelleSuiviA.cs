@@ -9,9 +9,6 @@ using MySql.Data.MySqlClient;
 using Classes_Metiers;
 using System.Security.Cryptography;
 
-/// <summary>
-/// Contient la classe permettant la gestion des données
-/// </summary>
 namespace Classe_Passerelle
 {
     /// <summary>
@@ -435,6 +432,7 @@ namespace Classe_Passerelle
         /// <summary>
         /// Permet de charger une liste contenant les visites présents en base de données
         /// </summary>
+        /// <param name="idActeur">String</param>
         /// <returns>Liste d'objets Visite</returns>
         public static List<Visite> initListeVisite(string idActeur)
         {
@@ -924,6 +922,7 @@ namespace Classe_Passerelle
         /// </summary>
         /// <param name="login">String</param>
         /// <param name="MDP">String</param>
+        /// <param name="connexionViaActiveDirectory">Boolean</param>
         /// <returns>String</returns>
         public static string seConnecter(string login, string MDP, Boolean connexionViaActiveDirectory)
         {

@@ -9,3 +9,6 @@ C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\ActiveDirectory\bin\Debug
 C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\ActiveDirectory\obj\Debug\ActiveDirectory.csprojResolveAssemblyReference.cache
 C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\ActiveDirectory\obj\Debug\ActiveDirectory.dll
 C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\ActiveDirectory\obj\Debug\ActiveDirectory.pdb
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\ActiveDirectory\bin\Debug\ActiveDirectory.XML
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\ActiveDirectory\bin\Debug\Classe Passerelle.xml
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\ActiveDirectory\bin\Debug\Classes Metiers.xml

@@ -31,3 +31,6 @@ C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.pdb
 C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.Visites.VisitesRUD2.resources
 C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.Cabinets.CabinetRU2.resources
 C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\obj\Debug\Vues.Médecins.MedecinRU2.resources
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\ActiveDirectory.xml
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\Classe Passerelle.xml
+C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Vues\bin\Debug\Classes Metiers.xml

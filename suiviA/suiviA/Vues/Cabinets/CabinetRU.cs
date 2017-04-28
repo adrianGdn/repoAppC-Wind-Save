@@ -22,9 +22,6 @@ namespace Vues.Cabinets
         private static List<Cabinet> uneListeDeCabinet;
         private static List<Acteur> uneListeDeVisiteur;
         private static List<Medecin> uneListeDeMedecin;
-        private Cabinet cabinetAModifier;
-        private String cpSelectionne;
-        private String villeSelectionnee;
 
         private void btnModifier_Click(object sender, EventArgs e)
         {

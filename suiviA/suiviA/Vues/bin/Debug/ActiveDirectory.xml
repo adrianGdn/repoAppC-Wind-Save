@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ActiveDirectory</name>
+    </assembly>
+    <members>
+        <member name="T:ActiveDirectory.ConnexionActiveDirectory">
+            <summary>
+            Classe permettant de faire la liaison avec l'Active Directory
+            </summary>
+        </member>
+        <member name="M:ActiveDirectory.ConnexionActiveDirectory.authentification(System.String,System.String)">
+            <summary>
+            Permet de vérifier si les identifiants précisé en paramètre existe au sein
+            de l'active l'Active Directory. Dans le cas contraire, délenche une exception
+            </summary>
+            <param name="login">Le login de l'utilisateur</param>
+            <param name="mdp">Le mot de passe de l'utilisateur</param>
+            <returns>L'état de la connexion</returns>
+        </member>
+    </members>
+</doc>

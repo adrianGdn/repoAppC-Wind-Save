@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 using System.DirectoryServices;
 using Classe_Passerelle;
 
-/// <summary>
-/// Projet contenant la classe connexion à l'Active Directory
-/// </summary>
 namespace ActiveDirectory
 {
     /// <summary>
@@ -20,8 +17,9 @@ namespace ActiveDirectory
         /// Permet de vérifier si les identifiants précisé en paramètre existe au sein
         /// de l'active l'Active Directory. Dans le cas contraire, délenche une exception
         /// </summary>
-        /// <param name="login"></param>
-        /// <param name="mdp"></param>
+        /// <param name="login">Le login de l'utilisateur</param>
+        /// <param name="mdp">Le mot de passe de l'utilisateur</param>
+        /// <returns>L'état de la connexion</returns>
         public static string authentification(string login, string mdp)
         {
             try

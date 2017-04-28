@@ -4,9 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// Contient les classes Cabinet, Médecin, Visite et Acteur
-/// </summary>
 namespace Classes_Metiers
 {
     /// <summary>
@@ -24,85 +21,6 @@ namespace Classes_Metiers
         private Acteur lActeur;
 
         
-        #region Encapsulation
-        public DateTime DateVisite
-        {
-            get
-            {
-                return dateVisite;
-            }
-
-            set
-            {
-                dateVisite = value;
-            }
-        }
-
-        public bool EstVisiteProgramme
-        {
-            get
-            {
-                return estVisiteProgramme;
-            }
-
-            set
-            {
-                estVisiteProgramme = value;
-            }
-        }
-
-        public string HeureArriveeCabinet
-        {
-            get
-            {
-                return heureArriveeCabinet;
-            }
-
-            set
-            {
-                heureArriveeCabinet = value;
-            }
-        }
-
-        public string HeureDebutEntretien
-        {
-            get
-            {
-                return heureDebutEntretien;
-            }
-
-            set
-            {
-                heureDebutEntretien = value;
-            }
-        }
-
-        public string HeureDepartCabinet
-        {
-            get
-            {
-                return heureDepartCabinet;
-            }
-
-            set
-            {
-                heureDepartCabinet = value;
-            }
-        }
-
-        public Medecin LeMedecin
-        {
-            get
-            {
-                return leMedecin;
-            }
-
-            set
-            {
-                leMedecin = value;
-            }
-        }
-        #endregion
         #region Setters
         /// <summary>
         /// Permet de modifier l'identifiant d'une visite

@@ -5,9 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using GoogleMaps.LocationServices;
 
-/// <summary>
-/// Contient les classes Cabinet, Médecin, Visite et Acteur
-/// </summary>
 namespace Classes_Metiers
 {
     /// <summary>
@@ -225,46 +222,6 @@ namespace Classes_Metiers
             catch
             {
                 return "Erreur";
-            }
-        }
-        #endregion
-        #region Encapsulation
-        public string Rue
-        {
-            get
-            {
-                return rue;
-            }
-
-            set
-            {
-                rue = value;
-            }
-        }
-
-        public string Ville
-        {
-            get
-            {
-                return ville;
-            }
-
-            set
-            {
-                ville = value;
-            }
-        }
-
-        public string Cp
-        {
-            get
-            {
-                return cp;
-            }
-
-            set
-            {
-                cp = value;
             }
         }
         #endregion

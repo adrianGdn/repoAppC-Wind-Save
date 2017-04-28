@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Classe Passerelle</name>
+    </assembly>
+    <members>
+        <member name="T:Classe_Passerelle.PasserelleSuiviA">
+            <summary>
+            Classe servant de lien entre la base de données et l'application
+            </summary>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.remplitListeCabinetViaBDD">
+            <summary>
+            Permet de récupérer tous les cabinets présents en base de données
+            </summary>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.remplitListeActeurViaBDD">
+            <summary>
+            Permet de récupérer tous les acteurs présents en base de données
+            </summary>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.remplitListeMedecinViaBDD">
+            <summary>
+            Permet de récupérer tous les médecins présents en base de données
+            </summary>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.remplitListeVisiteViaBDD(System.String)">
+            <summary>
+            Permet de récupérer toutes les visites présentes en base de données
+            </summary>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.remplitListeVisiteViaBDDSansActeur">
+            <summary>
+            Permet de récupérer toutes les visites présentes en base de données
+            </summary>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.initListeCabinet">
+            <summary>
+            Permet de charger une liste contenant les cabinets présents en base de données
+            </summary>
+            <returns>Liste d'objets Cabinet</returns>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.initListeActeur">
+            <summary>
+            Permet de charger une liste contenant les acteurs présents en base de données
+            </summary>
+            <returns>Liste d'objets Acteur</returns>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.initListeMedecin">
+            <summary>
+            Permet de charger une liste contenant les médecins présents en base de données
+            </summary>
+            <returns>Liste d'objets Medecin</returns>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.initListeVisite(System.String)">
+            <summary>
+            Permet de charger une liste contenant les visites présents en base de données
+            </summary>
+            <param name="idActeur">String</param>
+            <returns>Liste d'objets Visite</returns>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.initListeVisiteSansActeur">
+            <summary>
+            Permet de charger une liste contenant les visites présents en base de données
+            </summary>
+            <returns>Liste d'objets Visite</returns>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.ajoutCabinet(Classes_Metiers.Cabinet)">
+            <summary>
+            Permet d'insérer un objet Cabinet en base de données
+            </summary>
+            <param name="unCabinet">Un objet Cabinet</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.ajoutMedecin(Classes_Metiers.Medecin)">
+            <summary>
+            Permet d'insérer un objet Medecin en base de données
+            </summary>
+            <param name="unMedecin">Un objet Medecin</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.ajoutMedecinSansVisiteur(Classes_Metiers.Medecin)">
+            <summary>
+            Permet d'insérer un objet Medecin sans visiteur en base de données
+            </summary>
+            <param name="unMedecin">Un objet Medecin</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.ajoutVisiste(Classes_Metiers.Visite)">
+            <summary>
+            Permet d'insérer un objet Visite en base de données
+            </summary>
+            <param name="uneVisite">Un objet Visite</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.supprimerVisite(Classes_Metiers.Visite)">
+            <summary>
+            Permet de supprimer une visite de la base de données
+            </summary>
+            <param name="uneVisite">Un objet Visite</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.supprimerMedecin(Classes_Metiers.Medecin)">
+            <summary>
+            Permet de supprimer une visite de la base de données
+            Méthode utilisé seulement dans les tests pour éviter de se retrouver avec des médecins factice
+            </summary>
+            <param name="unMedecin">Un objet Medecin</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.supprimerCabinet(Classes_Metiers.Cabinet)">
+            <summary>
+            Permet de supprimer un cabinet de la base de données
+            Méthode utilisé seulement dans les tests pour éviter de se retrouver avec des cabinets factice
+            </summary>
+            <param name="unCabinet">Un objet Cabinet</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.metAJourCabinet(Classes_Metiers.Cabinet)">
+            <summary>
+            Permet de mettre à jour un cabinet présent en base de données
+            </summary>
+            <param name="unCabinet">Un objet Cabinet</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.metAJourMedecin(Classes_Metiers.Medecin)">
+            <summary>
+            Permet de mettre à jour un médecin présent en base de données
+            </summary>
+            <param name="unMedecin">Un objet Medecin</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.metAJourMedecinEtActeur(Classes_Metiers.Medecin)">
+            <summary>
+            Permet de mettre à jour un médecin et son visiteur présent en base de données
+            </summary>
+            <param name="unMedecin">Un objet Medecin</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.metAJourVisite(Classes_Metiers.Visite)">
+            <summary>
+            Permet de mettre à jour une visite présente en base de données
+            </summary>
+            <param name="uneVisite">Un objet Visite</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.seConnecter(System.String,System.String,System.Boolean)">
+            <summary>
+            Permet de s'authentifier
+            </summary>
+            <param name="login">String</param>
+            <param name="MDP">String</param>
+            <param name="connexionViaActiveDirectory">Boolean</param>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.setActeurConnecte(Classes_Metiers.Acteur)">
+            <summary>
+            Permet de sauvegarder l'acteur actuellement connecté à l'application
+            Procédure utilisée afin de passer un objet Acteur d'une vue à une autre
+            </summary>
+            <param name="lActeurConnecte">Un objet Acteur</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.setVisiteAModifier(Classes_Metiers.Visite)">
+            <summary>
+            Permet de sauvegarder la visite qui doit être modifiée
+            Procédure utilisée afin de passer un objet Visite d'une vue à une autre
+            </summary>
+            <param name="laVisiteSelectionnee">Un objet Visite</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.setMedecinAModifier(Classes_Metiers.Medecin)">
+            <summary>
+            Permet de sauvegarder le médecin qui doit être modifiée
+            Procédure utilisée afin de passer un objet Medecin d'une vue à une autre
+            </summary>
+            <param name="leMedecinSelectionnee">Un objet Medecin</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.setCabinetAModifier(Classes_Metiers.Cabinet)">
+            <summary>
+            Permet de sauvegarder le cabinet qui doit être modifiée
+            Procédure utilisée afin de passer un objet Cabinet d'une vue à une autre
+            </summary>
+            <param name="leCabinetSelectionnee">Un objet Cabinet</param>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.getActeurConnecte">
+            <summary>
+            Permet de récupérer l'acteur actuellement connecté à l'application
+            Fonction utilisée afin de passer un objet Acteur d'une vue à une autre
+            </summary>
+            <returns>Un objet Acteur</returns>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.getVisiteAModifier">
+            <summary>
+            Permet de récupérer la visite qui doit être modifiée
+            Fonction utilisée afin de passer un objet Visite d'une vue à une autre
+            </summary>
+            <returns>Un objet Visite</returns>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.getMedecinAModifier">
+            <summary>
+            Permet de récupérer le médecin qui doit être modifiée
+            Fonction utilisée afin de passer un objet Medecin d'une vue à une autre
+            </summary>
+            <returns>Un objet Medecin</returns>
+        </member>
+        <member name="M:Classe_Passerelle.PasserelleSuiviA.getCabinetAModifier">
+            <summary>
+            Permet de récupérer le cabinet qui doit être modifiée
+            Fonction utilisée afin de passer un objet Cabinet d'une vue à une autre
+            </summary>
+            <returns>Un objet Cabinet</returns>
+        </member>
+    </members>
+</doc>

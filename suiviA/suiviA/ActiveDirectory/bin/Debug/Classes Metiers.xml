@@ -1,0 +1,461 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Classes Metiers</name>
+    </assembly>
+    <members>
+        <member name="T:Classes_Metiers.Cabinet">
+            <summary>
+            Permet la création d'une classe Cabinet
+            </summary>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.setIdCabinet(System.Int32)">
+            <summary>
+            Permet de modifier l'identifiant du cabinet
+            </summary>
+            <param name="id">Int</param>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.setLongitute(System.String)">
+            <summary>
+            Permet de modifier l'emplacement du cabinet (sa longitude)
+            </summary>
+            <param name="longitudeGPS">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.setLatitude(System.String)">
+            <summary>
+            Permet de modifier l'emplacement du cabinet (sa latitude)
+            </summary>
+            <param name="latitudeGPS">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.setRue(System.String)">
+            <summary>
+            Permet de modifier la rue cabinet
+            </summary>
+            <param name="rue">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.setVille(System.String)">
+            <summary>
+            Permet de modifier la ville cabinet
+            </summary>
+            <param name="ville">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.setCP(System.String)">
+            <summary>
+            Permet de modifier le code postal cabinet
+            </summary>
+            <param name="cp">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.getIdCabinet">
+            <summary>
+            Permet d'obtenir l'identifiant du cabinet
+            </summary>
+            <returns>Int</returns>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.getLongitudeGPS">
+            <summary>
+            Permet d'obtenir les coordonnées GPS du cabinet (sa longitude)
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.getLatitudeGPS">
+            <summary>
+            Permet d'obtenir les coordonnées GPS du cabinet (sa latitude)
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.getRue">
+            <summary>
+            Permet d'obtenir la rue du cabinet
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.getCP">
+            <summary>
+            Permet d'obtenir le code postal du cabinet
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.getVille">
+            <summary>
+            Permet d'obtenir la ville du cabinet
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.#ctor(System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Permet d'instancier un objet Cabinet
+            </summary>
+            <param name="id">Int</param>
+            <param name="rue">String</param>
+            <param name="ville">String</param>
+            <param name="cp">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.getNumDepartement">
+            <summary>
+            Permet de récupérer le numéro du département où se trouve le cabinet
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.ToString">
+            <summary>
+            Renvoie les informations relatives au cabinet
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.getLatitudeViaAPI(System.String,System.String)">
+            <summary>
+            Permet d'obtenir la latitude du cabinet
+            </summary>
+            <param name="laVilleDuCabinet">String</param>
+            <param name="laRueDuCabinet">String</param>
+            <returns>La latitude du cabinet (String) ou "erreur"</returns>
+        </member>
+        <member name="M:Classes_Metiers.Cabinet.getLongitudeViaAPI(System.String,System.String)">
+            <summary>
+            Permet d'obtenir la longitude du cabinet
+            </summary>
+            <param name="laVilleDuCabinet">String</param>
+            <param name="laRueDuCabinet">String</param>
+            <returns>La longitude du cabinet (String) ou "erreur"</returns>
+        </member>
+        <member name="T:Classes_Metiers.Medecin">
+            <summary>
+            Permet la création d'une classe Medecin
+            </summary>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.setIdMedecin(System.Int32)">
+            <summary>
+            Permet de modifier l'identifiant du médecin
+            </summary>
+            <param name="id">Int</param>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.setNom(System.String)">
+            <summary>
+            Permet de modifier le nom du médecin
+            </summary>
+            <param name="nom">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.setPrenom(System.String)">
+            <summary>
+            Permet de modifier le prénom du médecin
+            </summary>
+            <param name="prenom">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.setCabinet(Classes_Metiers.Cabinet)">
+            <summary>
+            Permet de modifier le cabinet du médecin
+            </summary>
+            <param name="leCabinet">Objet Cabinet</param>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.setActeur(Classes_Metiers.Acteur)">
+            <summary>
+            Permet de modifier l'acteur assigné au médecin
+            </summary>
+            <param name="lActeur">Objet Acteur</param>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.getIdMedecin">
+            <summary>
+            Permet de récupérer l'identifiant du médecin
+            </summary>
+            <returns>Int</returns>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.getNom">
+            <summary>
+            Permet de récupérer le nom du médecin
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.getPrenom">
+            <summary>
+            Permet de récupérer le prénom du médecin
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.getLeCabinet">
+            <summary>
+            Permet de récupérer le cabinet assigné au médecin
+            </summary>
+            <returns>Objet Cabinet</returns>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.getLActeur">
+            <summary>
+            Permet de récupérer l'acteur assigné au médecin
+            </summary>
+            <returns>Ojet Acteur</returns>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.#ctor(System.Int32,System.String,System.String,Classes_Metiers.Cabinet,Classes_Metiers.Acteur)">
+            <summary>
+            Permet d'instancier un objet Médecin
+            </summary>
+            <param name="id">Int</param>
+            <param name="nom">String</param>
+            <param name="prenom">String</param>
+            <param name="unCabinet">Objet Cabinet</param>
+            <param name="unActeur">Objet Acteur</param>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.#ctor(System.Int32,System.String,System.String,Classes_Metiers.Cabinet)">
+            <summary>
+            Permet d'instancier un objet Médecin sans lui assigner un acteur
+            </summary>
+            <param name="id">Int</param>
+            <param name="nom">String</param>
+            <param name="prenom">String</param>
+            <param name="unCabinet">Objet Cabinet</param>
+        </member>
+        <member name="M:Classes_Metiers.Medecin.ToString">
+            <summary>
+            Renvoie les informations relatives au médecin
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="P:Classes_Metiers.Medecin.Nom">
+            <summary>
+            Permet d'afficher le nom du médecin, sert dans la vue "Affectation"
+            </summary>
+        </member>
+        <member name="P:Classes_Metiers.Medecin.Prenom">
+            <summary>
+            Permet d'afficher le prénom du médecin, sert dans la vue "Affectation"
+            </summary>
+        </member>
+        <member name="P:Classes_Metiers.Medecin.LeCabinet">
+            <summary>
+            Permet d'afficher l'objet cabinet, sert dans la vue "Affectation"
+            </summary>
+        </member>
+        <member name="P:Classes_Metiers.Medecin.LActeur">
+            <summary>
+            Permet d'afficher l'objet acteur, sert dans la vue "Affectation"
+            </summary>
+        </member>
+        <member name="T:Classes_Metiers.Visite">
+            <summary>
+            Permet la création d'une classe Visite
+            </summary>
+        </member>
+        <member name="M:Classes_Metiers.Visite.setIdVisite(System.Int32)">
+            <summary>
+            Permet de modifier l'identifiant d'une visite
+            </summary>
+            <param name="id">Int</param>
+        </member>
+        <member name="M:Classes_Metiers.Visite.setDateVisite(System.DateTime)">
+            <summary>
+            Permet de modifier la date d'une visite
+            </summary>
+            <param name="dateVisite">DateTime</param>
+        </member>
+        <member name="M:Classes_Metiers.Visite.setEstVisiteProgramme(System.Boolean)">
+            <summary>
+            Permet de modifier le fait que la visite est été ou non programmé
+            </summary>
+            <param name="estVisiteProgramme">Boolean</param>
+        </member>
+        <member name="M:Classes_Metiers.Visite.setHeureArriveeCabinet(System.String)">
+            <summary>
+            Permet de modifier l'heure d'arrivée de la visite
+            </summary>
+            <param name="heureArriveCabinet">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Visite.setHeureDebutEntretien(System.String)">
+            <summary>
+            Permet de modifier l'heure de début d'entretient de la visite
+            </summary>
+            <param name="heureDebutEntretien">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Visite.setHeureDepartCabinet(System.String)">
+            <summary>
+            Permet de modifier l'heure de départ de l'acteur du cabinet
+            </summary>
+            <param name="heureDepartCabinet">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Visite.setMedecin(Classes_Metiers.Medecin)">
+            <summary>
+            Permet de modifier le médecin associé à une visite
+            </summary>
+            <param name="unMedecin">Objet Medecin</param>
+        </member>
+        <member name="M:Classes_Metiers.Visite.setActeur(Classes_Metiers.Acteur)">
+            <summary>
+            Permet de modifier de l'acteur associé à une visite
+            </summary>
+            <param name="unActeur">Objet Acteur</param>
+        </member>
+        <member name="M:Classes_Metiers.Visite.getIdVisite">
+            <summary>
+            Permet d'obtenir l'identifiant de la visite
+            </summary>
+            <returns>Int</returns>
+        </member>
+        <member name="M:Classes_Metiers.Visite.getDateVisite">
+            <summary>
+            Permet d'obtenir la date de visite
+            </summary>
+            <returns>DateTime</returns>
+        </member>
+        <member name="M:Classes_Metiers.Visite.getEstVisiteProgramme">
+            <summary>
+            Permet de savoir si la visite était programmé ou non
+            </summary>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:Classes_Metiers.Visite.getHeureArriveeCabinet">
+            <summary>
+            Permet d'obtenir l'heure d'arrivée de l'acteur dans le cabinet
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Visite.getHeureDebutEntretien">
+            <summary>
+            Permet d'obtenir l'heure de début d'entretien de l'acteur avec le médecin
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Visite.getHeureDepartCabinet">
+            <summary>
+            Permet d'obtenir l'heure de départ de l'acteur du cabinet
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Visite.getLeMedecin">
+            <summary>
+            Permet de récupérer le médecin associé à la visite
+            </summary>
+            <returns>Objet Medecin</returns>
+        </member>
+        <member name="M:Classes_Metiers.Visite.getLActeur">
+            <summary>
+            Permet de récupérer l'acteur associé à la visite
+            </summary>
+            <returns>Objet Acteur</returns>
+        </member>
+        <member name="M:Classes_Metiers.Visite.#ctor(System.Int32,System.DateTime,System.Boolean,System.String,System.String,System.String,Classes_Metiers.Medecin,Classes_Metiers.Acteur)">
+            <summary>
+            Permet d'instanticier un objet Visite
+            </summary>
+            <param name="idVisite">Int</param>
+            <param name="dateVisite">DateTime</param>
+            <param name="estVisiteProgramme">Boolean</param>
+            <param name="heureArriveeCabinet">String</param>
+            <param name="heureDebutEntretien">String</param>
+            <param name="heureDepartCabinet">String</param>
+            <param name="unMedecin">Objet Medecin</param>
+            <param name="unActeur">Objet Acteur</param>
+        </member>
+        <member name="M:Classes_Metiers.Visite.ToString">
+            <summary>
+            Renvoie les informations relatives à la visite
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="T:Classes_Metiers.Acteur">
+            <summary>
+            Permet la création d'une classe Acteur
+            </summary>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.setIdActeur(System.String)">
+            <summary>
+            Permet de modifier l'identifiant de l'acteur
+            </summary>
+            <param name="id">Int</param>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.setNom(System.String)">
+            <summary>
+            Permet de modifier le nom de l'acteur
+            </summary>
+            <param name="nom">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.setPrenom(System.String)">
+            <summary>
+            Permet de modifier le prenom de l'acteur
+            </summary>
+            <param name="prenom">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.setLogin(System.String)">
+            <summary>
+            Permet de modifier le login de l'acteur
+            </summary>
+            <param name="login">String</param>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.setMDP(System.String)">
+            <summary>
+            Permet de modifier le mot de passe de l'acteur
+            </summary>
+            <param name="MDP">string</param>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.setTypeActeur(System.Int32)">
+            <summary>
+            Permet de modifier le type d'acteur qu'est cet acteur
+            </summary>
+            <param name="unTypeActeur">Int</param>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.getIdActeur">
+            <summary>
+            Permet de récupérer l'identifiant de l'acteur
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.getNom">
+            <summary>
+            Permet de récupérer le nom de l'acteur
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.getPrenom">
+            <summary>
+            Permet de récupérer le prenom de l'acteur
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.getLogin">
+            <summary>
+            Permet de récupérer le login de l'acteur
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.getMDP">
+            <summary>
+            Permet de récupérer le mot de passe de l'acteur
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.getTypeActeur">
+            <summary>
+            Permet de récupérer le type d'acteur qu'est l'acteur
+            </summary>
+            <returns>Int</returns>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Permet d'instancier un objet Acteur
+            </summary>
+            <param name="id">String</param>
+            <param name="nom">String</param>
+            <param name="prenom">String</param>
+            <param name="login">String</param>
+            <param name="MDP">String</param>
+            <param name="typeActeur">Int</param>
+        </member>
+        <member name="M:Classes_Metiers.Acteur.ToString">
+            <summary>
+            Renvoie les informations relatives à l'acteur
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="P:Classes_Metiers.Acteur.Nom">
+            <summary>
+            Permet d'afficher le nom de l'acteur, sert dans la vue "Affectation"
+            </summary>
+        </member>
+        <member name="P:Classes_Metiers.Acteur.Prenom">
+            <summary>
+            Permet d'afficher le prénom de l'acteur, sert dans la vue "Affectation"
+            </summary>
+        </member>
+        <member name="P:Classes_Metiers.Acteur.Login">
+            <summary>
+            Permet d'afficher le login de l'acteur, sert dans la vue "Affectation"
+            </summary>
+        </member>
+    </members>
+</doc>
