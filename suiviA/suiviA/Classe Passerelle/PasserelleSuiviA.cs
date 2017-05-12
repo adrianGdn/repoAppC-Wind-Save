@@ -16,7 +16,7 @@ namespace Classe_Passerelle
     /// </summary>
     public static class PasserelleSuiviA
     {
-        private static string connectionString = "SERVER=172.16.9.23; DATABASE=gsbapplifrais; UID=jojuad; PASSWORD=AzertY!59000";
+        private static string connectionString = "SERVER=172.16.9.21; DATABASE=gsbapplifrais; UID=jojuad; PASSWORD=AzertY!59000";
         private static List<Cabinet> uneListeDeCabinet;
         private static List<Acteur> uneListeDActeur;
         private static List<Medecin> uneListeDeMedecin;
