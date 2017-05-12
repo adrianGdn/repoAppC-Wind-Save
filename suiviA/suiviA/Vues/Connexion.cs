@@ -36,7 +36,7 @@ namespace Vues
         private void btnConnexion_Click(object sender, EventArgs e)
         {
             // On passe cette variable à faux (false) lorsqu'on ne souhaite pas utiliser l'Active Directory (si on n'y a pas accès)
-            Boolean utiliseAD = false;
+            Boolean utiliseAD = true;
 
             if (utiliseAD == false)
             {
@@ -99,6 +99,14 @@ namespace Vues
                         txtMotDePasse.Text = "";
                     }
                 }
+            }
+        }
+
+        private void Connexion_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnConnexion_Click(sender, e);
             }
         }
     }
