@@ -26,7 +26,7 @@ namespace ActiveDirectory
             {
                 // Il est possible que la connexion se fasse mal ci l'adresse ci-dessous est incorrect.
                 // Les adresses entre la salle 8 et 9 sont différentes.
-                DirectoryEntry entree = new DirectoryEntry("LDAP://172.16.8.10", login, mdp);
+                DirectoryEntry entree = new DirectoryEntry("LDAP://172.16.9.10", login, mdp);
                 object objetNatif = entree.NativeObject;
 
                 return PasserelleSuiviA.seConnecter(login, mdp, true);
