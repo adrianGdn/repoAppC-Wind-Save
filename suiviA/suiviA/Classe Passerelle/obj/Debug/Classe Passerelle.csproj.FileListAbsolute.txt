@@ -9,3 +9,14 @@ C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Classe Passerelle\obj\Deb
 C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Classe Passerelle\obj\Debug\Classe Passerelle.pdb
 C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Classe Passerelle\bin\Debug\Classe Passerelle.XML
 C:\Users\Adrian Gandon\Source\Workspaces\suiviA\suiviA\Classe Passerelle\bin\Debug\Classes Metiers.xml
+C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\Classe Passerelle\bin\Debug\Classe Passerelle.XML
+C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\Classe Passerelle\bin\Debug\Classe Passerelle.dll
+C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\Classe Passerelle\bin\Debug\Classe Passerelle.pdb
+C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\Classe Passerelle\bin\Debug\Classes Metiers.dll
+C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\Classe Passerelle\bin\Debug\MySql.Data.dll
+C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\Classe Passerelle\bin\Debug\GoogleMaps.LocationServices.dll
+C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\Classe Passerelle\bin\Debug\Classes Metiers.pdb
+C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\Classe Passerelle\bin\Debug\Classes Metiers.xml
+C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\Classe Passerelle\obj\Debug\Classe Passerelle.csprojResolveAssemblyReference.cache
+C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\Classe Passerelle\obj\Debug\Classe Passerelle.dll
+C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\Classe Passerelle\obj\Debug\Classe Passerelle.pdb
