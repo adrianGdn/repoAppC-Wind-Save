@@ -26,3 +26,17 @@ C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\Active
 C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\obj\Debug\ActiveDirectory.csprojResolveAssemblyReference.cache
 C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\obj\Debug\ActiveDirectory.dll
 C:\Users\Adrian Gandon\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\obj\Debug\ActiveDirectory.pdb
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\bin\Debug\ActiveDirectory.XML
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\bin\Debug\ActiveDirectory.dll
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\bin\Debug\ActiveDirectory.pdb
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\bin\Debug\Classe Passerelle.dll
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\bin\Debug\Classes Metiers.dll
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\bin\Debug\MySql.Data.dll
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\bin\Debug\GoogleMaps.LocationServices.dll
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\bin\Debug\Classe Passerelle.pdb
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\bin\Debug\Classe Passerelle.xml
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\bin\Debug\Classes Metiers.pdb
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\bin\Debug\Classes Metiers.xml
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\obj\Debug\ActiveDirectory.csprojResolveAssemblyReference.cache
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\obj\Debug\ActiveDirectory.dll
+C:\Users\GUITTARD_GANDON_PETI\Source\Workspaces\repoAppC-Wind-Save\suiviA\suiviA\ActiveDirectory\obj\Debug\ActiveDirectory.pdb
